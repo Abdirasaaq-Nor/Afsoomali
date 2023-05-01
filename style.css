@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0078d4 !important;
+}
+.main_div {
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+/* .................... contect div......... */
+.content_div {
+  margin-top: 90px;
+}
+.content_div h1 {
+  color: white;
+}
+.content_div p {
+  color: white;
+  padding-top: 10px;
+}
+.kororso {
+  background-color: white;
+  width: 320px;
+  height: 45px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* ............................ sidbar_div............. */
+.sidbar_div {
+  background-color: white;
+  width: 725px;
+  height: 490px;
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.top_line_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+.left_side {
+  display: flex;
+  margin-left: 8px;
+}
+
+.left_side h5 {
+  padding: 0px 10px 0px 10px;
+}
+.right_side {
+  display: flex;
+}
+.right_side span {
+  padding: 0px 10px 0px 10px;
+}
+
+.diidin {
+  display: flex;
+  margin-right: 6px;
+}
+.textarea_ textarea {
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  color: gray;
+  padding-left: 8px;
+}
+.icons {
+  background-color: skyblue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0px 5px 0px 5px;
+}
+.hubi_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hubi {
+  background-color: blue;
+  width: 200px;
+  height: 40px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+
+/* ................................ sidebar sectionn */
+.bars {
+  float: right;
+  margin-right: 30px;
+  display: none;
+  cursor: pointer;
+}
+.sidebar {
+  background-color: #f6f6f6;
+  width: 230px;
+  /* margin-top: 10px; */
+  height: 78vh;
+  border-radius: 10px;
+  top: 0;
+}
+.border_bottom {
+  display: flex;
+  border-bottom: 1px solid gray;
+  width: 230px;
+  margin-top: 27px;
+}
+
+.bayqaamin_ {
+  margin: 15px 0px 0px 40px;
+}
+.bayqaamin_ h2 {
+  font-size: 15px;
+}
+
+.cod {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 7px;
+  font-size: 14px;
+  color: rgb(90, 90, 90);
+}
+.cod h3 {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.cod span {
+  padding-left: 20px;
+}
+.cod_inputs {
+  margin-left: 10px;
+}
+
+.border_bottom_2 {
+  display: flex;
+  border-bottom: 1px solid gray;
+  width: 230px;
+  margin-top: 8px;
+}
+.border_bottom_3 {
+  display: flex;
+  border-bottom: 1px solid gray;
+  width: 495px;
+  margin-top: 8px;
+}
+
+.jaadka_Weydiinta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  color: rgb(90, 90, 90);
+  padding-left: 10px;
+}
+.radio_buttons {
+  display: flex;
+  margin-left: 10px;
+}
+
+.Heer h3 {
+  font-size: 15px;
+}
+.jaadka_Weydiinta h3 {
+  font-size: 15px;
+}
+.jaadka {
+  display: flex;
+  margin-top: 10px;
+}
+.jaadka label {
+  padding-right: 8px;
+}
+.jaadka span {
+  padding: 0px 10px 0px 1px;
+  display: flex;
+}
+
+.bayqaami_btn {
+  background-color: rgb(98, 192, 228);
+  width: 200px;
+  height: 30px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+/* ..................... responsitive for mobile */
+/* .............................. responsitive for mobile ............. */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white !important;
+  }
+  .main_div {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2, 1fr); */
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .sidbar_div {
+    border: 1px solid gray;
+    width: auto;
+    height: 530px;
+    margin-right: 20px;
+  }
+  .top_line_flex {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+  }
+  .bars {
+    float: right;
+    margin-right: 20px;
+    display: block;
+
+    margin-top: 10px;
+  }
+  .sidebar {
+    background-color: #f6f6f6;
+    width: 230px;
+    /* margin-top: 10px; */
+    height: 74vh;
+    border-radius: 10px;
+    position: absolute;
+    right: 24px;
+    top: 405px;
+    display: none;
+  }
+  .textarea_ textarea {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    color: gray;
+    padding-left: 8px;
+    background-color: white;
+    width: 420px;
+  }
+  .border_bottom_3 {
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: 430px;
+    margin-top: 8px;
+  }
+  .bars {
+    float: right;
+    margin-left: 200px;
+    display: block;
+    margin-top: 10px;
+  }
+  .content_div h1 {
+    color: black;
+  }
+  .content_div p {
+    color: black;
+    padding-top: 10px;
+  }
+  .kororso{
+    display: none;
+  }
+}
+
+/* ....... tbale */
+@media (min-width: 600px) and (max-width: 1024px) {
+  body {
+    background-color: white !important;
+  }
+  .content_div h1 {
+    color: black;
+  }
+  .content_div p {
+    color: black;
+    padding-top: 10px;
+  }
+  .main_div {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2, 1fr); */
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .border_bottom_3 {
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: 730px;
+    margin-top: 8px;
+  }
+  .sidbar_div {
+    border: 1px solid gray;
+    width: auto;
+    height: 490px;
+    margin-right: 10px;
+  }
+  .bars {
+    float: right;
+    margin-right: 20px;
+    display: block;
+    margin-left: 80px;
+
+    margin-top: 4px;
+    float: right;
+  }
+  .sidebar {
+    background-color: #f6f6f6;
+    width: 230px;
+    /* margin-top: 10px; */
+    height: 74vh;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 430px;
+  }
+  .top_line_flex {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+  }
+  .right_side {
+    margin-right: 160px;
+  }
+  
+}
