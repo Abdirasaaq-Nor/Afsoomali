@@ -152,7 +152,25 @@ body {
 .cod_inputs {
   margin-left: 10px;
 }
+/* ............... heerka */
+.hoose_border input[type = radio]{
+  margin-top: 30px;
+  width: 20px;
+  height: 20px;
+}
+.dhexe_border input[type=radio] {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
 
+
+.sare_border input[type=radio] {
+  width: 30px;
+  height: 30px;
+
+}
 .border_bottom_2 {
   display: flex;
   border-bottom: 1px solid gray;
@@ -180,6 +198,8 @@ body {
 
 .Heer h3 {
   font-size: 15px;
+  padding-left: 6px;
+  padding-top: 10px;
 }
 .jaadka_Weydiinta h3 {
   font-size: 15px;
