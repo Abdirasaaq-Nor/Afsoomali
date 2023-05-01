@@ -8,3 +8,5 @@ barIcon.addEventListener("click", () => {
     sidebar.style.display = "none";
   }
 });
+
+

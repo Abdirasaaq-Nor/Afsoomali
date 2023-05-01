@@ -116,7 +116,7 @@ body {
   background-color: #f6f6f6;
   width: 230px;
   /* margin-top: 10px; */
-  height: 78vh;
+  height: auto;
   border-radius: 10px;
   top: 0;
 }
@@ -207,7 +207,72 @@ body {
   margin-top: 50px;
   margin-left: 20px;
 }
+/* ............................................... model.............. */
+/* .modelll{=
+  background-color: red;
+  width: 800px;
+} */
+body .modal-ku {
+  width: 900px;
+}
+.xarfaha{
+  color: rgb(40, 186, 40);
+}
 
+.model_jaadka_laaxinta {
+  display: flex;
+  justify-content: space-between;
+}
+.model_jaadka_content p {
+  font-size: 14px;
+  padding-top: 6px;
+  color: black;
+}
+.light_red{
+  background-color: #ffbebe;
+  color: rgb(41, 40, 40);
+  font-size: 14px;
+  padding: 8px;
+}
+.light_green{
+  margin-top: 8px;
+  background-color: rgb(134, 245, 134);
+  font-size: 14px;
+  padding: 8px;
+   color: rgb(41, 40, 40);
+}
+.dowladdena{
+  text-align: center;
+  margin-top: 20px;
+}
+.sharaxd{
+  font-size: 14px;
+}
+.border_bottom_sharaxd{
+  width: auto;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+.ifafaalo{
+  display: flex;
+}
+.ifafaalo p{
+  font-size: 14px;
+}
+.stars span{
+  color: gray;
+  margin-left: 2px;
+}
+.qeemeen_barnaamijak{
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.qeemeyn{
+  display: flex;
+}
 /* ..................... responsitive for mobile */
 /* .............................. responsitive for mobile ............. */
 @media only screen and (max-width: 600px) {
@@ -280,7 +345,7 @@ body {
     color: black;
     padding-top: 10px;
   }
-  .kororso{
+  .kororso {
     display: none;
   }
 }
@@ -348,5 +413,4 @@ body {
   .right_side {
     margin-right: 160px;
   }
-  
 }
