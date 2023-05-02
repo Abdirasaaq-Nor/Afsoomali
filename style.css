@@ -6,6 +6,37 @@
 body {
   background-color: #0078d4 !important;
 }
+
+/* ....................................... footer section */
+.main_footer{
+  background-color: white;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+.logo_img{
+  display: flex;
+  align-items: center;
+}
+.logo_img h3{
+  font-size: 20px;
+  color: rgb(47, 47, 47);
+  padding-top: 6px;
+  padding-left: 8px;
+}
+.img_attri {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.footer_icon i{
+  color: gray;
+  font-size: 30px;
+  margin-right: 10px;
+}
 .main_div {
   display: flex;
   /* grid-template-columns: repeat(2, 1fr); */
@@ -23,14 +54,15 @@ body {
 .content_div p {
   color: white;
   padding-top: 10px;
+  width: 260px;
 }
 .kororso {
   background-color: white;
   width: 320px;
   height: 45px;
-  border: none;
+  border: 5px solid skyblue;
   border-radius: 6px;
-  outline: none;
+  outline: skyblue;
 }
 
 /* ............................ sidbar_div............. */
@@ -76,6 +108,7 @@ body {
   border: none;
   color: gray;
   padding-left: 8px;
+  resize: none;
 }
 .icons {
   background-color: skyblue;
@@ -153,23 +186,21 @@ body {
   margin-left: 10px;
 }
 /* ............... heerka */
-.hoose_border input[type = radio]{
+.hoose_border input[type="radio"] {
   margin-top: 30px;
   width: 20px;
   height: 20px;
 }
-.dhexe_border input[type=radio] {
+.dhexe_border input[type="radio"] {
   width: 25px;
   height: 25px;
   margin-left: 10px;
   margin-top: 20px;
 }
 
-
-.sare_border input[type=radio] {
+.sare_border input[type="radio"] {
   width: 30px;
   height: 30px;
-
 }
 .border_bottom_2 {
   display: flex;
@@ -235,7 +266,7 @@ body {
 body .modal-ku {
   width: 900px;
 }
-.xarfaha{
+.xarfaha {
   color: rgb(40, 186, 40);
 }
 
@@ -248,49 +279,49 @@ body .modal-ku {
   padding-top: 6px;
   color: black;
 }
-.light_red{
+.light_red {
   background-color: #ffbebe;
   color: rgb(41, 40, 40);
   font-size: 14px;
   padding: 8px;
 }
-.light_green{
+.light_green {
   margin-top: 8px;
   background-color: rgb(134, 245, 134);
   font-size: 14px;
   padding: 8px;
-   color: rgb(41, 40, 40);
+  color: rgb(41, 40, 40);
 }
-.dowladdena{
+.dowladdena {
   text-align: center;
   margin-top: 20px;
 }
-.sharaxd{
+.sharaxd {
   font-size: 14px;
 }
-.border_bottom_sharaxd{
+.border_bottom_sharaxd {
   width: auto;
   display: flex;
   border-bottom: 1px solid gray;
 }
-.ifafaalo{
+.ifafaalo {
   display: flex;
 }
-.ifafaalo p{
+.ifafaalo p {
   font-size: 14px;
 }
-.stars span{
+.stars span {
   color: gray;
   margin-left: 2px;
 }
-.qeemeen_barnaamijak{
+.qeemeen_barnaamijak {
   display: flex;
   font-size: 14px;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.qeemeyn{
+.qeemeyn {
   display: flex;
 }
 /* ..................... responsitive for mobile */
@@ -299,6 +330,7 @@ body .modal-ku {
   body {
     background-color: white !important;
   }
+
   .main_div {
     display: flex;
     flex-direction: column;
@@ -346,6 +378,7 @@ body .modal-ku {
     background-color: white;
     width: 420px;
   }
+
   .border_bottom_3 {
     display: flex;
     border-bottom: 1px solid gray;
@@ -358,16 +391,40 @@ body .modal-ku {
     display: block;
     margin-top: 10px;
   }
+  /* ....................... content div ............. */
+  .content_div {
+    text-align: center;
+    font-family: serif;
+    text-align: center;
+  }
+  /* .content_div p {
+    color: white;
+    padding-top: 10px;
+    width: 260px;
+  } */
+
   .content_div h1 {
     color: black;
   }
   .content_div p {
     color: black;
     padding-top: 10px;
+    width: 400px;
   }
   .kororso {
     display: none;
   }
+  /* ....................footer............. */
+  .main_footer{
+  background-color: white;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
 }
 
 /* ....... tbale */
@@ -375,13 +432,36 @@ body .modal-ku {
   body {
     background-color: white !important;
   }
-  .content_div h1 {
-    color: black;
+  .kororso {
+    display: none;
+  }
+  /* ................ content div ...................... */
+  .content_div {
+    text-align: center;
   }
   .content_div p {
     color: black;
-    padding-top: 10px;
+    padding-top: 4px;
+    text-align: center;
+    width: auto;
+    white-space: pre-wrap;
   }
+  .content_div h1 {
+    color: black;
+  }
+  .kororsto_div{
+display: flex;
+justify-content: center;
+margin: 0px 0px 20px 0px;
+  }
+    .kororso {
+    display: block;
+  
+  }
+  /* .content_div p {
+    color: black;
+    padding-top: 10px;
+  } */
   .main_div {
     display: flex;
     flex-direction: column;
@@ -433,4 +513,14 @@ body .modal-ku {
   .right_side {
     margin-right: 160px;
   }
+    .main_footer{
+  background-color: white;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
 }
